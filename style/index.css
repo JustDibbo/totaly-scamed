@@ -348,7 +348,7 @@ header {
 }
 
 #s:hover {
-    border:2px solid #FF42A5;
+    border: 2px solid #FF42A5;
     border-radius: 18px;
     width: 98.9%;
     cursor: pointer;
@@ -357,16 +357,7 @@ header {
     transition: filter 0.3s ease-in-out;
 }
 
-
-
-
-
-
-
-
-
-
-
+/* play button ad korat jonno amar pokha ja kora possible sob korasi but pari nai :( */
 
 @media screen and (max-width:576px) {
     footer .footer-next {
@@ -427,6 +418,8 @@ header {
     .bonus {
         display: grid;
         grid-template-columns: repeat(3, 0.5fr);
+        width: 80%;
+        margin: 0 auto;
     }
 
 
@@ -448,6 +441,8 @@ header {
         gap: 50px;
         margin-bottom: 110px;
         margin-top: 40px;
+        width: 90%;
+        margin: 0 auto;
 
     }
 
@@ -468,38 +463,106 @@ header {
     .nav-parrent {
         flex-direction: column;
         height: auto;
+        width: 90%;
+        margin: 0 auto;
+
     }
 
     .nav-nav {
         flex-direction: column;
         padding-bottom: 30px;
         padding-top: 40px;
+
     }
 
     /* nav ends here */
     .goat-section {
         flex-direction: column-reverse;
         gap: 30px;
+        width: 90%;
+        margin: 0 auto;
     }
 
     .goat-inbx {
         width: 300px;
+        margin: 0 auto;
+
     }
 
     .goat-text {
         background-image: none;
+
     }
 
     .goat-img {
         width: 300px;
         margin: 0 auto;
+
     }
 
     .hardimg {
         flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+
     }
+
     .hard {
         width: 90%;
         margin: 0 auto;
+
+    }
+
+    .hard-ts {
+        width: 80%;
+        margin: 0 auto;
+
+    }
+
+}
+
+@media screen and (min-width:576.1px) and (max-width:780px) {
+    .nav-parrent {
+        flex-direction: column;
+        padding-bottom: 30px;
+        gap: 10px;
+    }
+
+    .goat-section {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .goat-text {
+        background-image: none;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .hardimg {
+        flex-direction: column;
+        width: 45%;
+        margin: 0 auto;
+        gap: 50px;
+    }
+
+    .optional {
+        flex-direction: column;
+        gap: 50px;
+        margin-bottom: 170px;
+        margin-top: 40px;
+
+    }
+
+    .opimg1 {
+        height: 460px;
+    }
+
+    .opimg2 {
+        height: 240px;
+    }
+
+    footer {
+        height: 400px;
     }
 }
