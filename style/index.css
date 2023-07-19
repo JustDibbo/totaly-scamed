@@ -139,6 +139,64 @@ body main .single-btn:hover {
     cursor: pointer;
 }
 
+/* bonus ends here */
+.text-op {
+    text-align: right;
+
+}
+
+.optional {
+    padding-left: 13%;
+    padding-right: 13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 14%;
+    gap: 23%;
+    margin-top: 60px;
+}
+
+.op-t {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 55px;
+}
+
+.op-p {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 5%;
+}
+
+.op-s {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.img-op {
+    position: relative;
+}
+
+.img-op2 {
+    position: absolute;
+    top: 75%;
+    right: 80%;
+}
+
+.opimg1 {
+    height: 560px;
+}
+
+.opimg2 {
+    height: 320px;
+}
+
+
+
+
 
 
 
@@ -213,6 +271,30 @@ body main .single-btn:hover {
     .bi {
         width: 50%;
     }
+
+    /* bonus ends hrre */
+    .optional {
+        flex-direction: column;
+        gap: 50px;
+        margin-bottom: 110px;
+        margin-top: 40px;
+
+    }
+
+    .opimg1 {
+        height: 270px;
+    }
+
+    .opimg2 {
+        height: 133px;
+    }
+
+    .text-op {
+        text-align: center;
+
+    }
+
+
 
 
 
