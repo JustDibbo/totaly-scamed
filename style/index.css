@@ -1,8 +1,186 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
 
-*{
+* {
     font-family: 'Work Sans', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* footer section */
+footer {
+    background-color: #0B0223;
+    height: 650px;
+}
+
+.footer-title {
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.g {
+    color: #FF42A5;
+}
+
+.web-name {
+    display: flex;
+    justify-content: center;
+    padding-top: 7%;
+    gap: 1%;
+}
+
+.footer-cmn {
+    list-style: none;
+}
+
+.footer-cmn a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-next {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding-top: 3%;
+}
+
+.footer-cmn a:hover {
+    color: #FF42A5;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding-top: 3.75%;
+}
+
+.footer-cmn2 a {
+    text-decoration: none;
+    color: #999999;
+    font-size: 29px;
+    font-weight: 600;
+}
+
+.footer-cmn2 a:hover {
+    color: #ffffff;
+    font-size: 28px;
+}
+
+.footer-cmn2 {
+    list-style: none;
+}
+
+.extra {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding-top: 3.65%;
+}
+
+.footer-cmn3 a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.60);
+}
+
+.footer-cmn3 a:hover {
+    color: #d465a681;
+}
+
+.endp {
+    color: #FFF;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5%;
+}
+
+.endp {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+}
+
+
+
+@media screen and (max-width:576px) {
+    footer .footer-next {
+        display: grid;
+        justify-content: center;
+        gap: 15px;
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 80%;
+        margin: 0 auto;
+        padding-top: 10%;
+        padding-bottom: 7%;
+    }
+
+    footer .footer-cmn a {
+        font-size: 13px;
+    }
+
+    footer .icons {
+        display: grid;
+        justify-content: center;
+        gap: 15px;
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 80%;
+        margin: 0 auto;
+        padding: 7% ;
+    }
+
+    footer .footer-cmn2 a {
+        font-size: 30px;
+    }
+
+    footer .extra {
+        display: grid;
+        justify-content: center;
+        gap: 15px;
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 80%;
+        margin: 0 auto;
+        padding: 4% ;
+    }
+
+    footer .footer-cmn3 a {
+        font-size: 10px;
+    }
+
+    footer .end {
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
