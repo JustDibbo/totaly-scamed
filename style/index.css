@@ -28,6 +28,7 @@ footer {
     justify-content: center;
     padding-top: 7%;
     gap: 1%;
+    align-items: center;
 }
 
 .footer-cmn {
@@ -194,6 +195,91 @@ body main .single-btn:hover {
     height: 320px;
 }
 
+/* nav starts here */
+.webname2 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.nav-t {
+    display: flex;
+    align-items: center;
+    gap: .60%;
+}
+
+header {
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    /* height: 130px; */
+}
+
+.nav-nav li {
+    list-style: none;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav-nav li button {
+    padding: 14px 18px 15px 16px;
+    background: #3c354f2c;
+    border: 0;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+.nav-nav {
+    display: flex;
+    align-items: center;
+    gap: 31px;
+}
+
+.red {
+    color: red;
+}
+
+.nav-nav li button,
+.nav-nav li:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.nav-parrent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -253,6 +339,10 @@ body main .single-btn:hover {
 
     }
 
+    .endp {
+        padding-top: 80px;
+    }
+
     /* footers responsive ends here */
     .bonus {
         display: grid;
@@ -294,9 +384,17 @@ body main .single-btn:hover {
 
     }
 
+    /* optional ende here */
+    .nav-parrent {
+        flex-direction: column;
+        height: auto;
+    }
 
-
-
+    .nav-nav {
+        flex-direction: column;
+        padding-bottom: 30px;
+        padding-top: 40px;
+    }
 
 
 }
