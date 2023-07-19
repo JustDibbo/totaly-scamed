@@ -253,20 +253,66 @@ header {
     padding-right: 12%;
 }
 
+/* nav ends here */
+.goat {
+    font-size: 90px;
+    padding-bottom: 10px;
+}
 
+.goat-t {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
 
+.goat-f {
+    padding-bottom: 7px;
+    font-size: 15px;
+}
 
+.goat-text {
+    background-image: url(../style/images/Group\ 14.png);
+    background-repeat: no-repeat;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding-left: 12%;
+}
 
+.gb1 {
+    padding: 13px 30px 13px 30px;
+    border-radius: 48px;
+    background: #FF42A5;
+    border: 0;
+    font-size: 18px;
+    margin-right: 1%;
+    margin-top: 12px;
+    color: #FFF;
+    cursor: pointer;
+}
 
+.gb2 {
+    padding: 13px 30px 13px 30px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    font-size: 18px;
+    border: 0;
+    color: #FFF;
+    margin-top: 12px;
+    cursor: pointer;
+}
 
+.goat-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
 
+}
 
-
-
-
-
-
-
+.goat-img {
+    width: 50%;
+}
 
 
 
@@ -395,6 +441,26 @@ header {
         padding-bottom: 30px;
         padding-top: 40px;
     }
+
+    /* nav ends here */
+    .goat-section {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .goat-inbx {
+        width: 300px;
+    }
+
+    .goat-text {
+        background-image: none;
+    }
+
+    .goat-img {
+        width: 300px;
+        margin: 0 auto;
+    }
+
 
 
 }
